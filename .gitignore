@@ -1,0 +1,10 @@
+*.shp*
+*.dbf*
+*.prj*
+*.shx*
+*.cpg*
+*.sbx*
+*.sbn*
+*.tif*
+*.tiff*
+*.zip*
