@@ -1,0 +1,86 @@
+ENVI
+description = {
+  Create Layer File Result [Thu Apr 17 22:30:48 2025]}
+samples = 438
+lines   = 331
+bands   = 70
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, 118.22742891, 2.30049561, 8.9830000000e-005, 8.9830000000e-005, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Layer (Layer (Warp (Layer (Mask (Band 1:PRM_2016-01_rrs_AGC_PPI_ntr300):PRM_2016-01_rrs_AGC_PPI_ntr300_CM):2016_Stack_PRM_rrs_AGC_PPI_ntr300):2016-01_rrs_AGC_PPI_ntr300_alignedGEE):2016_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Layer (Mask (Band 1:PRM_2016-03_rrs_AGC_PPI_ntr300):PRM_2016-03_rrs_AGC_PPI_ntr300_CM):2016_Stack_PRM_rrs_AGC_PPI_ntr300):2016-03_rrs_AGC_PPI_ntr300_alignedGEE):2016_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Layer (Band 1:PRM_2016-05_rrs_AGC_PPI_ntr300):2016_Stack_PRM_rrs_AGC_PPI_ntr300):2016-05_rrs_AGC_PPI_ntr300_alignedGEE):2016_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2016-06_rrs_AGC_PPI_ntr300):PRM_2016-06_rrs_AGC_PPI_ntr300_aligned):2016_Stack_PRM_rrs_AGC_PPI_ntr300):2016-06_rrs_AGC_PPI_ntr300_alignedGEE):2016_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Layer (Band 1:PRM_2016-09_rrs_AGC_PPI_ntr300):2016_Stack_PRM_rrs_AGC_PPI_ntr300):2016-09_rrs_AGC_PPI_ntr300_alignedGEE):2016_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Warp (Band 1:2017-01-03_rrs_AGC_PPI_ntr300):2017-01-03_rrs_AGC_PPI_ntr300_aligned):2017-01_03_rrs_AGC_PPI_ntr300_alignedGEE):2017_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Mask (Band 1:PRM_2017-03_rrs_AGC_PPI_ntr300):PRM_2017-03_rrs_AGC_PPI_ntr300_CM):2017-03_rrs_AGC_PPI_ntr300_alignedGEE):2017_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Band 1:PRM_2017-04_rrs_AGC_PPI_ntr300):2017-04_rrs_AGC_PPI_ntr300_alignedGEE):2017_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Mask (Band 1:PRM_2017-07_rrs_AGC_PPI_ntr300):PRM_2017-07_rrs_AGC_PPI_ntr300_CM):2017-07_rrs_AGC_PPI_ntr300_alignedGEE):2017_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Warp (Band 1:PRM_2017-09_rrs_AGC_PPI_ntr300):2017-09_rrs_AGC_PPI_ntr300_alignedGEE):2017_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2019-01_13_rrs_cm0_AGC_PPI_ntr300):2019-01_13_rrs_cm0_AGC_PPI_ntr300_CM):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-02-17_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-03-Median_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-04-28_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-05-23_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-06-12_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-07-07_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-08-21_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-09-10_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2019-10-05_rrs_cm0_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2019-11-19_rrs_AGC_PPI_ntr300):2019-11-19_rrs_AGC_PPI_ntr300_CM):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2019-12-29_rrs_cm0_AGC_PPI_ntr300):2019-12-29_rrs_cm0_AGC_PPI_ntr300_CM):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2020-01-28_cm0_AGC_PPI_est_ntr300):2020-01-28_cm0_AGC_PPI_est_ntr300_CM):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-02-07_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-03-23_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-04-22_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-05-07_rrs_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-06-16_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-07-11_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-08-10_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-09-14_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2020-10-14_AGC_PPI_est_ntr300):2020-10-14_AGC_PPI_est_ntr300_CM):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-11-13_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2020-12-13_AGC_PPI_est_ntr300):2020_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2021-01-22_cm_AGC_PPI_ntr300):2021-01-22_AGC_PPI_ntr300_cloudmasked):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-02-16_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-03-Median_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-04-22_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-05-22_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-06-01_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-07-26_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-08-25_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-09-29_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-11-18_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2021-12-23_rrs_AGC_PPI_ntr300):2021_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Mask (Band 1:2022-01-07_rrs_cm0_AGC_PPI_ntr300):2022-01-07_rrs_cm0_AGC_PPI_ntr300_CM):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Band 1:2022-03-28_rrs_AGC_PPI_ntr300):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Band 1:2022-04-22_rrs_AGC_PPI_ntr300):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Band 1:2022-07-21_rrs_AGC_PPI_ntr300):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Band 1:2022-08-20_rrs_AGC_PPI_ntr300):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Band 1:2022-09-19_rrs_AGC_PPI_ntr300):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Mask (Band 1:2022-10-04_rrs_cm0_AGC_PPI_ntr300):2022-10-04_rrs_cm0_AGC_PPI_ntr300_CM):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Mask (Band 1:2022-11-08_rrs_cm0_AGC_PPI_ntr300):2022-11-08_rrs_cm0_AGC_PPI_ntr300_CM):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Resize (Layer (Mask (Band 1:2022-12-13_rrs_cm0_AGC_PPI_ntr300):2022-12-13_rrs_cm0_AGC_PPI_ntr300_CM):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE):2022_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-03-28_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-04-Median_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-05-12_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-06-11_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-07-11_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-08-20_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-09-14_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-10-24_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Mask (Band 1:2023-11-08_rrs_AGC_PPI_ntr300):2023-11-08_rrs_AGC_PPI_ntr300_CM):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2023-12-18_rrs_AGC_PPI_ntr300):2023_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-05-01_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-06-15_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-07-20_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-09-13_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-10-18_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE), 
+ Layer (Layer (Band 1:2024-11-02_rrs_AGC_PPI_ntr300):2024_stack_rrs_AGC_PPI_ntr300_alignedGEE)}
