@@ -1,0 +1,86 @@
+ENVI
+description = {
+  Create Layer File Result [Thu May 01 17:39:49 2025]}
+samples = 439
+lines   = 332
+bands   = 70
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+map info = {Geographic Lat/Lon, 1.0000, 1.0000, 118.22733908, 2.30067527, 8.9830000000e-005, 8.9830000000e-005, WGS-84, units=Degrees}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+wavelength units = Unknown
+band names = {
+ Layer (Layer (Warp (Layer (Band 1:2024-05-01_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_05_01_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2024-06-15_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_06_15_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2024-07-20_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_07_20_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2024-09-13_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_09_13_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2024-10-18_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_10_18_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2024-11-02_rrs_CS_Aan_ntr300):stack_2024_CS_Aan_ntr300):CS_2024_11_02_aligned):Stack_CS_2024_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-03-28_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_03_28_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-04-Median_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_04_Median_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-05-12_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_05_12_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-06-11_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_06_11_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-07-11_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_07_11_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-08-20_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_08_20_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-09-14_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_09_14_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-10-24_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_10_24_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Mask (Band 1:2023-10-24_rrs_CS_Aan_ntr300):2023-11-08_rrs_CS_Aan_ntr300_CM):stack_2023_CS_Aan_ntr300):CS_2023_11_08_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2023-12-18_rrs_CS_Aan_ntr300):stack_2023_CS_Aan_ntr300):CS_2023_12_18_aligned):Stack_CS_2023_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-03-28_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_01_07_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-03-28_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_03_28_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-04-22_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_04_22_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-07-21_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_07_21_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-08-20_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_08_20_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2022-09-19_rrs_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_09_19_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Mask (Band 1:2022-10-04_rrs_cm0_CS_Aan_ntr300):2022-10-04_rrs_cm0_CS_Aan_ntr300_CM):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_10_04_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Mask (Band 1:2022-11-08_rrs_cm0_CS_Aan_ntr300):2022-11-08_rrs_cm0_CS_Aan_ntr300_CM):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_11_08_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Mask (Band 1:2022-12-13_rrs_cm0_CS_Aan_ntr300):2022-12-13_rrs_cm0_CS_Aan_ntr300_CM):stack_2022_CS_Aan_ntr300):stack_2022_CS_Aan_ntr300):CS_2022_12_13_aligned):Stack_CS_2022_aligned), 
+ Layer (Layer (Warp (Layer (Mask (Band 1:2021-01-22_cm0_rrs_CS_Aan_ntr300):2021-01-22_cm0_rrs_CS_Aan_ntr300_CM):stack_2021_CS_Aan_ntr300):CS_2021_01_22_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-02-16_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_02_16_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-03-Median_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_03_Median_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-04-22_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_04_22_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-05-22_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_05_22_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-06-01_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_06_01_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-07-26_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_07_26_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-08-25_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_08_25_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-09-29_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_09_29_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-11-18_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_11_18_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Layer (Band 1:2021-12-23_rrs_CS_Aan_ntr300):stack_2021_CS_Aan_ntr300):CS_2021_12_23_aligned):Stack_CS_2021_aligned), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Mask (Band 1:2020-01-28_cm0_CS_Aan_est_ntr300):2020-01-28_cm0_CS_Aan_est_ntr300_CM):stack_2020_CS_Aan_ntr300):[Memory3]):2020-01-28_cm0_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_01_28_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-02-07_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-02-07_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_02_07_aligned):CS_2020_02_07_aligned_2):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-03-23_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-03-23_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_03_23_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-04-22_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-04-22_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_04_22_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-05-07_rrs_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-05-07_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_05_07_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-06-16_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-06-16_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_06_16_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-07-11_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-07-11_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_07_11_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-08-10_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-08-10_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_08_10_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-09-14_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-09-14_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_09_14_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Mask (Band 1:2020-10-14_AGC_PPI_est_ntr300):2020-10-14_AGC_PPI_est_ntr300_CM):stack_2020_CS_Aan_ntr300):[Memory3]):2020-10-14_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_10_14_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-11-13_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-11-13_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_11_13_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Resize (Layer (Warp (Resize (Layer (Band 1:2020-12-13_CS_Aan_est_ntr300):stack_2020_CS_Aan_ntr300):[Memory3]):2020-12-13_CS_Aan_ntr300_alignedGEE):stack_2020_CS_Aan_ntr300):stack_2020_CS_Aan_ntr300):CS_2020_12_13_aligned):Stack_CS_2020_aligned_2), 
+ Layer (Layer (Warp (Layer (Warp (Mask (Band 1:PRM_2016-01_rrs_CS_Aan_ntr300):PRM_2016-01_rrs_CS_Aan_ntr300_CM):2016-01_CS_Aan_ntr300_alignedGEE):stack_2016_CS_Aan_ntr300):CS_2016_01_09_aligned):Stack_CS_2016_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Mask (Band 1:PRM_2016-03_rrs_CS_Aan_ntr300):PRM_2016-03_rrs_CS_Aan_ntr300_CM):2016-03_CS_Aan_ntr300_alignedGEE):stack_2016_CS_Aan_ntr300):CS_2016_03_09_aligned):Stack_CS_2016_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2016-05_rrs_CS_Aan_ntr300):2016-05_CS_Aan_ntr300_alignedGEE):stack_2016_CS_Aan_ntr300):CS_2016_05_18_aligned):Stack_CS_2016_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2016-06_rrs_CS_Aan_ntr300):2016-06_CS_Aan_ntr300_alignedGEE):stack_2016_CS_Aan_ntr300):CS_2016_06_07_aligned):Stack_CS_2016_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2016-09_rrs_CS_Aan_ntr300):2016-09_CS_Aan_ntr300_alignedGEE):stack_2016_CS_Aan_ntr300):CS_2016_09_15_aligned):Stack_CS_2016_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2017-09_rrs_CS_Aan_ntr300):2017-09_CS_Aan_ntr300_alignedGEE):stack_2017_CS_Aan_ntr300):CS_2017_09_aligned):Stack_CS_2017_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Mask (Band 1:PRM_2017-07_rrs_CS_Aan_ntr300):PRM_2017-07_rrs_CS_Aan_ntr300_CM):2017-07_CS_Aan_ntr300_alignedGEE):stack_2017_CS_Aan_ntr300):CS_2017_07_aligned):Stack_CS_2017_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:PRM_2017-04_rrs_CS_Aan_ntr300):2017-04_CS_Aan_ntr300_alignedGEE):stack_2017_CS_Aan_ntr300):CS_2017_04_aligned):Stack_CS_2017_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Mask (Band 1:PRM_2017-03_rrs_CS_Aan_ntr300):PRM_2017-03_rrs_CS_Aan_ntr300_CM):2017-03_CS_Aan_ntr300_alignedGEE):stack_2017_CS_Aan_ntr300):CS_2017_03_aligned):Stack_CS_2017_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:rfrEst_PRM_CS_Aan_tree300):2017-01_CS_Aan_ntr300_alignedGEE):stack_2017_CS_Aan_ntr300):CS_2017_01_03_aligned):Stack_CS_2017_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Layer (Layer (Warp (Resize (Layer (Mask (Band 1:2019-01_13_rrs_cm0_CS_Aan_ntr300):2019-01_13_rrs_cm0_CS_Aan_ntr300_CM):stack_2019_CS_Aan_ntr300):[Memory6]):2019-01-13_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):stack_2016-2024_CS_Aan_ntr300):2019-01-13_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_01_13_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Layer (Layer (Warp (Resize (Layer (Band 1:2019-02-17_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-02-17_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):stack_2016-2024_CS_Aan_ntr300):2019-02-17_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_02_17_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Warp (Layer (Warp (Resize (Layer (Band 1:2019-03-Median_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-03-Median_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_03_Median_aligned):CS_2019_03_Median_aligned_(2)):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Layer (Band 1:2019-04-28_rrs_AGC_PPI_ntr300):2019_stack_rrs_AGC_PPI_ntr300_alignedGEE):2016-2024_stack_rrs_AGC_PPI_ntr300_alignedGEE):CS_2019_04_28_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Band 1:2019-05-23_rrs_CS_Aan_ntr300):CS_2019_05_23_aligned):Stack_CS_2019_aligned):CS_2019_05_23_aligned_2):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Band 1:2019-06-12_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-06-12_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_06_12_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Band 1:2019-07-07_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-07-07_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_07_07_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Band 1:2019-08-21_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-08-21_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_08_21_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Band 1:2019-09-10_rrs_CS_Aan_ntr300):stack_2019_CS_Aan_ntr300):[Memory6]):2019-09-10_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_09_10_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Mask (Band 1:2019-10-05_rrs_cm0_CS_Aan_ntr300):2019-10-05_rrs_cm0_CS_Aan_ntr300_CM):stack_2019_CS_Aan_ntr300):[Memory6]):2019-10-05_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_10_05_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Mask (Band 1:2019-11-19_rrs_CS_Aan_ntr300):2019-11-19_rrs_CS_Aan_ntr300_CM):stack_2019_CS_Aan_ntr300):[Memory6]):2019-11-19_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_11_19_aligned):Stack_CS_2019_aligned), 
+ Layer (Layer (Warp (Layer (Warp (Resize (Layer (Mask (Band 1:2019-12-29_rrs_cm0_CS_Aan_ntr300):2019-12-29_rrs_cm0_CS_Aan_ntr300_CM):stack_2019_CS_Aan_ntr300):[Memory6]):2019-12-29_CS_Aan_ntr300_alignedGEE):stack_2019_CS_Aan_ntr300):CS_2019_12_29_aligned):Stack_CS_2019_aligned)}

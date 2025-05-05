@@ -3,7 +3,7 @@ import subprocess
 
 image_info = "image.json"
 
-source = "2016-2024_stack_rrs_AGC_PPI_ntr300_alignedGEE"
+source = "Stack 2016 to 2024\Stack_CS_2016_2024_aligned"
 check = subprocess.run(
     [
         "gdalinfo",

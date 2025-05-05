@@ -5,7 +5,8 @@ from tempfile import TemporaryDirectory
 
 temp_folder = TemporaryDirectory(delete=False)
 
-source = "Stack_AGC_2016-2024_v2/2016-2024_stack_rrs_AGC_PPI_ntr300_alignedGEE"
+output_name = "CS"
+source = "Stack_2016_to_2024/Stack_CS_2016_2024_aligned"
 band_info = json.loads(
     subprocess.check_output(
         [
@@ -43,7 +44,7 @@ for x in range(len(band_info)):
         text=True,
     )
 
-mean = f"{temp_folder.name}/mean_seagrass.tif"
+mean = f"{temp_folder.name}/mean_{output_name}.tif"
 subprocess.run(
     f"""gdal_calc \
         -A {temp_folder.name}/image_no_*.tif \
@@ -59,7 +60,7 @@ subprocess.run(
     shell=True,
 )
 
-std = f"{temp_folder.name}/std_seagrass.tif"
+std = f"{temp_folder.name}/std_{output_name}.tif"
 subprocess.run(
     f"""gdal_calc \
         -A {temp_folder.name}/image_no_*.tif \
@@ -75,7 +76,7 @@ subprocess.run(
     shell=True,
 )
 
-cv = f"{temp_folder.name}/cv_seagrass.tif"
+cv = f"{temp_folder.name}/cv_{output_name}.tif"
 subprocess.run(
     f"""gdal_calc \
         -A {mean} \
@@ -92,6 +93,6 @@ subprocess.run(
     shell=True,
 )
 
-copyfile(mean, "output/mean_seagrass.tif")
-copyfile(std, "output/std_seagrass.tif")
-copyfile(cv, "output/cv_seagrass.tif")
+copyfile(mean, f"output/mean_{output_name}.tif")
+copyfile(std, f"output/std_{output_name}.tif")
+copyfile(cv, f"output/cv_{output_name}.tif")
