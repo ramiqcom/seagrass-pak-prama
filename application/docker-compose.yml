@@ -1,0 +1,10 @@
+services:
+  combine_kmz:
+   build: .
+   command: [".venv/bin/python", "-m", "combine_kmz"]
+   volumes:
+     - seagrass:/usr/src/output
+
+volumes:
+  storage:
+   name: seagrass
