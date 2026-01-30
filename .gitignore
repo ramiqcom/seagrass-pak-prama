@@ -13,3 +13,9 @@ __pycache__
 .venv
 env
 venv
+
+*.png
+*.jpg
+*.xlsx
+*.csv
+*.fgb
