@@ -10,3 +10,6 @@ scipy~=1.10.1
 Cython~=0.29.36
 tensorflow
 keras
+fsspec
+openpyxl
+xlsxwriter
