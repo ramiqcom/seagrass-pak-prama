@@ -21,3 +21,5 @@ venv
 *.fgb
 
 py-earth
+
+private_key.json
