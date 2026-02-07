@@ -1,6 +1,11 @@
-numpy
 rasterio
 geopandas
 scikit-learn
 xgboost
 tensorflow
+jupyterlab
+matplotlib
+seaborn
+numpy==1.26.2
+scipy==1.10.1
+Cython==0.29.36

@@ -19,3 +19,5 @@ venv
 *.xlsx
 *.csv
 *.fgb
+
+py-earth
