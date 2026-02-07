@@ -2,10 +2,11 @@ rasterio
 geopandas
 scikit-learn
 xgboost
-tensorflow
 jupyterlab
 matplotlib
 seaborn
-numpy==1.26.2
-scipy==1.10.1
-Cython==0.29.36
+numpy~=1.26.2
+scipy~=1.10.1
+Cython~=0.29.36
+tensorflow~=2.16.1
+keras~=3.0
